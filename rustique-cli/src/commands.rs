@@ -10,6 +10,7 @@ pub mod changelog;
 pub mod bulk_downloader;
 pub mod search;
 pub mod download;
+pub mod backup;
 pub mod delete;
 pub mod config;
 pub mod config_table;

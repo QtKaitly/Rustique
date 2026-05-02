@@ -5,6 +5,7 @@ pub mod changelog_args;
 pub mod config_args;
 pub mod install_args;
 pub mod modpack_args;
+pub mod backup_args;
 pub mod info_args;
 pub mod sync_args;
 pub mod config_table_args;

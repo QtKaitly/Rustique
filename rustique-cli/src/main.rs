@@ -217,6 +217,13 @@ async fn async_main() {
                 }
             }
         }
+
+        Commands::Backup => {
+            backup().await;
+        }
+
+
+        
         Commands::Download(args) => {
             handle_err_result(
                 download(args).await,
